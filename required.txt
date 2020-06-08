@@ -1,0 +1,5 @@
+requests
+logging
+os
+configparser
+python-html5lib
