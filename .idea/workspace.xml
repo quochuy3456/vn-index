@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f28b82a-757e-485e-8682-4d3e0c253f1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vn-index.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vn-index.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clone_data_ajax.py" beforeDir="false" afterPath="$PROJECT_DIR$/clone_data_ajax.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_data.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,82 +16,59 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/vn_index$get_data.coverage" NAME="get_data Coverage Results" MODIFIED="1591586910954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/get_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/get_data.py" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="104" />
-    <option name="y" value="-9" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="vn-index" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vn-index" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1d3vkqZvDq07uNzeO9jAJVq6Qsd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.clone_data_ajax">
+    <configuration name="clone_data_ajax" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="vn-index" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clone_data_ajax.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="get_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="vn-index" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.clone_data_ajax" />
         <item itemvalue="Python.get_data" />
       </list>
     </recent_temporary>
@@ -128,41 +108,69 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591582447777</updated>
+      <workItem from="1591666738492" duration="1867000" />
+      <workItem from="1591672371100" duration="7480000" />
+      <workItem from="1591694874029" duration="1742000" />
+      <workItem from="1591699116906" duration="676000" />
     </task>
     <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27440348" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39804772" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="WindowStateProjectService">
+    <state x="2315" y="290" width="800" height="677" key="#Inspections" timestamp="1591697940815">
+      <screen x="1920" y="180" width="1600" height="900" />
+    </state>
+    <state x="2315" y="290" width="800" height="677" key="#Inspections/49.27.1871.1053/1920.180.1600.900@1920.180.1600.900" timestamp="1591697940815" />
+    <state width="777" height="253" key="GridCell.Tab.0.bottom" timestamp="1591699591300">
+      <screen x="1920" y="180" width="1600" height="900" />
+    </state>
+    <state width="777" height="253" key="GridCell.Tab.0.bottom/49.27.1871.1053/1920.180.1600.900@1920.180.1600.900" timestamp="1591699591300" />
+    <state width="777" height="253" key="GridCell.Tab.0.center" timestamp="1591699591299">
+      <screen x="1920" y="180" width="1600" height="900" />
+    </state>
+    <state width="777" height="253" key="GridCell.Tab.0.center/49.27.1871.1053/1920.180.1600.900@1920.180.1600.900" timestamp="1591699591299" />
+    <state width="777" height="253" key="GridCell.Tab.0.left" timestamp="1591699591299">
+      <screen x="1920" y="180" width="1600" height="900" />
+    </state>
+    <state width="777" height="253" key="GridCell.Tab.0.left/49.27.1871.1053/1920.180.1600.900@1920.180.1600.900" timestamp="1591699591299" />
+    <state width="777" height="253" key="GridCell.Tab.0.right" timestamp="1591699591300">
+      <screen x="1920" y="180" width="1600" height="900" />
+    </state>
+    <state width="777" height="253" key="GridCell.Tab.0.right/49.27.1871.1053/1920.180.1600.900@1920.180.1600.900" timestamp="1591699591300" />
+    <state width="1554" height="281" key="GridCell.Tab.1.bottom" timestamp="1591671262853">
+      <screen x="1920" y="180" width="1600" height="900" />
+    </state>
+    <state width="1554" height="281" key="GridCell.Tab.1.bottom/49.27.1871.1053/1920.180.1600.900@1920.180.1600.900" timestamp="1591671262853" />
+    <state width="1554" height="281" key="GridCell.Tab.1.center" timestamp="1591671262853">
+      <screen x="1920" y="180" width="1600" height="900" />
+    </state>
+    <state width="1554" height="281" key="GridCell.Tab.1.center/49.27.1871.1053/1920.180.1600.900@1920.180.1600.900" timestamp="1591671262853" />
+    <state width="1554" height="281" key="GridCell.Tab.1.left" timestamp="1591671262853">
+      <screen x="1920" y="180" width="1600" height="900" />
+    </state>
+    <state width="1554" height="281" key="GridCell.Tab.1.left/49.27.1871.1053/1920.180.1600.900@1920.180.1600.900" timestamp="1591671262853" />
+    <state width="1554" height="281" key="GridCell.Tab.1.right" timestamp="1591671262853">
+      <screen x="1920" y="180" width="1600" height="900" />
+    </state>
+    <state width="1554" height="281" key="GridCell.Tab.1.right/49.27.1871.1053/1920.180.1600.900@1920.180.1600.900" timestamp="1591671262853" />
+    <state x="473" y="187" key="SettingsEditor" timestamp="1591666929920">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="473" y="187" key="SettingsEditor/49.27.1871.1053/1920.180.1600.900@49.27.1871.1053" timestamp="1591666929920" />
+    <state x="2315" y="365" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1591699581957">
+      <screen x="1920" y="180" width="1600" height="900" />
+    </state>
+    <state x="2315" y="365" width="800" height="528" key="Vcs.Push.Dialog.v2/49.27.1871.1053/1920.180.1600.900@1920.180.1600.900" timestamp="1591699581957" />
+    <state x="2376" y="456" key="com.intellij.ide.util.TipDialog" timestamp="1591699292016">
+      <screen x="1920" y="180" width="1600" height="900" />
+    </state>
+    <state x="2376" y="456" key="com.intellij.ide.util.TipDialog/49.27.1871.1053/1920.180.1600.900@1920.180.1600.900" timestamp="1591699292016" />
+    <state x="2389" y="421" width="651" height="415" key="git4idea.merge.GitPullDialog" timestamp="1591699372828">
+      <screen x="1920" y="180" width="1600" height="900" />
+    </state>
+    <state x="2389" y="421" width="651" height="415" key="git4idea.merge.GitPullDialog/49.27.1871.1053/1920.180.1600.900@1920.180.1600.900" timestamp="1591699372828" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -175,16 +183,8 @@
       </default-breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/get_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/vn_index$get_data.coverage" NAME="get_data Coverage Results" MODIFIED="1591691966578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/vn_index$clone_data_ajax.coverage" NAME="clone_data_ajax Coverage Results" MODIFIED="1591699327201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
