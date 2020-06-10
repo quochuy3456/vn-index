@@ -63,12 +63,12 @@ class GetIndex:
         info = self.all_data.find("div", {"id": "divHoSoCongTyAjax"})
         table = info.find('table')
         rows = table.find_all('tr')
-        data_info = []
+        d = []
         for row in rows:
             cols = row.find_all('td')
             cols = [ele.text.strip() for ele in cols]
-            data_info.append([ele for ele in cols if ele])
-        data_info = list(filter(lambda x: True if len(x) >= 4 else False, data_info))
+            d.append([ele for ele in cols if ele])
+        data_info = list(filter(lambda x: True if len(x) >= 4 else False, d))
         return data_info
 
 
