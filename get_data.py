@@ -1,12 +1,14 @@
 import requests
 from bs4 import BeautifulSoup
 import os
+
 # import logging
 # import configparser
 
 pth = "https://s.cafef.vn"
 state = "upcom"
 company_name = "MNB-tong-cong-ty-may-nha-be-cong-ty-co-phan.chn"
+
 
 # config = configparser.ConfigParser()
 # config.read('config.cfg')
@@ -22,6 +24,7 @@ class GetIndex:
         @author Quoc Huy Do
         get data from cafef.vn of any cpn
     """
+
     def __init__(self, _path, state, cpn_name):
         self.path = _path
         self.state = state
@@ -43,6 +46,7 @@ class GetIndex:
         _data = requests.get(self.get_full_path())
         self.all_data = BeautifulSoup(_data.text, "html.parser")
 
+    @property
     def get_index_value_group_style(self):
         """
             get value when eps in group each
@@ -54,8 +58,9 @@ class GetIndex:
         li = data.find_all('li')
         dta = []
         for o in li:
-            dta.append\
-            (list(map(lambda x: x.get_text(strip=True), o.find_all("div"))))
+            dta.append(list(map(
+                lambda x: x.get_text(strip=True), o.find_all("div"))
+            ))
         return dta
 
     def get_index_value_list_st(self):
@@ -67,8 +72,9 @@ class GetIndex:
         lst_val = info.find('ul').find_all("li")
         iv = []
         for o in lst_val:
-            iv.append\
-            (list(map(lambda x: x.get_text(strip=True), o.find_all("span"))))
+            iv.append(list(map(
+                lambda x: x.get_text(strip=True), o.find_all("span"))
+            ))
         return iv
 
     def get_index_value(self):
@@ -77,7 +83,7 @@ class GetIndex:
         @return:
         """
         try:
-            index_value = self.get_index_value_group_style()
+            index_value = self.get_index_value_group_style
         except "N":
             index_value = self.get_index_value_list_st()
 
@@ -98,7 +104,6 @@ class GetIndex:
             d.append([ele for ele in cols if ele])
         data_info = list(filter(lambda x: True if len(x) >= 4 else False, d))
         return data_info
-
 
 # data = GetIndex(pth, state, company_name)
 #
