@@ -55,7 +55,7 @@ class GetIndex:
         dta = []
         for o in li:
             dta.append\
-              (list(map(lambda x: x.get_text(strip=True), o.find_all("div"))))
+            (list(map(lambda x: x.get_text(strip=True), o.find_all("div"))))
         return dta
 
     def get_index_value_list_st(self):
@@ -65,10 +65,10 @@ class GetIndex:
         """
         info = self.all_data.find("div", {"class": "tidown"})
         lst_val = info.find('ul').find_all("li")
-        iv= []
+        iv = []
         for o in lst_val:
             iv.append\
-              (list(map(lambda x: x.get_text(strip=True), o.find_all("span"))))
+            (list(map(lambda x: x.get_text(strip=True), o.find_all("span"))))
         return iv
 
     def get_index_value(self):
