@@ -1,31 +1,35 @@
 import requests
 from bs4 import BeautifulSoup
 
-path = "https://s.cafef.vn/Ajax/bank/BHoSoCongTy.aspx?symbol=VCB&Type=2&PageIndex=0&PageSize=4&donvi=1"
+path = "https://s.cafef.vn/Ajax/bank/BHoSoCongTy.\
+        aspx?symbol=VCB&Type=2&PageIndex=0&PageSize=4&donvi=1"
 
-path = "https://s.cafef.vn/Ajax/Bank/BHoSoCongTy.aspx?symbol=BID&Type=1&PageIndex=0&PageSize=4&donvi=1"
+# path = "https://s.cafef.vn/Ajax/Bank/BHoSoCongTy.aspx?symbol=BID&Type=1&PageIndex=0&PageSize=4&donvi=1"
 # path = "https://s.cafef.vn/Ajax/HoSoCongTy.aspx?symbol=vnm&Type=2&PageIndex=0&PageSize=4"
 #
 # path = "https://s.cafef.vn/Ajax/HoSoCongTy.aspx?symbol=hhc&Type=2&PageIndex=0&PageSize=4"
 
-data = requests.get(path)
-
-print(data.text)
+# data = requests.get(path)
+#
+# print(data.text)
 
 path = "https://s.cafef.vn/Lich-su-giao-dich-BID-1.chn"
 
 data = {
-'ctl00$ContentPlaceHolder1$scriptmanager': 'ctl00$ContentPlaceHolder1$ctl03$panelAjax|ctl00$ContentPlaceHolder1$ctl03$pager2',
-'__EVENTTARGET': 'ctl00$ContentPlaceHolder1$ctl03$pager2',
-'__EVENTARGUMENT': 1,
-'__VIEWSTATE': '/wEPDwUKMTU2NzY0ODUyMGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFKGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY3RsMDMkYnRTZWFyY2jJnyPYjjwDsOatyCQBZar0ZSQygQ==',
-'ctl00$ContentPlaceHolder1$ctl03$txtKeyword': 'BID',
-'ctl00$ContentPlaceHolder1$ctl03$dpkTradeDate1$txtDatePicker':'',
-'ctl00$ContentPlaceHolder1$ctl03$dpkTradeDate2$txtDatePicker':'',
-'ctl00$UcFooter2$hdIP':'',
-'__VIEWSTATEGENERATOR': '2E2252AF',
-'__ASYNCPOST': 'true'
-}
+    'ctl00$ContentPlaceHolder1$scriptmanager': 'ctl00$ContentPl\
+        aceHolder1$ctl03$panelAjax|ctl00$ContentPlaceHolder1$ctl03$pager2',
+    '__EVENTTARGET': 'ctl00$ContentPlaceHolder1$ctl03$pager2',
+    '__EVENTARGUMENT': 1,
+    '__VIEWSTATE': '/wEPDwUKMTU2NzY0ODUyMGQYAQUeX19Db250cm9sc1\
+        JlcXVpcmVQb3N0QmFja0tleV9fFgEFKGN0bDAwJENvbnRlbnRQbGFjZ\
+        UhvbGRlcjEkY3RsMDMkYnRTZWFyY2jJnyPYjjwDsOatyCQBZar0ZSQygQ==',
+    'ctl00$ContentPlaceHolder1$ctl03$txtKeyword': 'BID',
+    'ctl00$ContentPlaceHolder1$ctl03$dpkTradeDate1$txtDatePicker':'',
+    'ctl00$ContentPlaceHolder1$ctl03$dpkTradeDate2$txtDatePicker':'',
+    'ctl00$UcFooter2$hdIP':'',
+    '__VIEWSTATEGENERATOR': '2E2252AF',
+    '__ASYNCPOST': 'true'
+    }
 
 a = requests.post(path,
                   data=data,
@@ -43,7 +47,8 @@ a = requests.post(path,
                       "Sec-Fetch-Dest": "empty",
                       "Sec-Fetch-Mode": "cors",
                       "Sec-Fetch-Site": "same-origin",
-                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)\
+                        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36",
                       "X-MicrosoftAjax": "Delta=true",
                   }
                   )
@@ -63,10 +68,12 @@ class GetIndex:
             Clone data from ajax link
         """
         if self.category:
-            _path = f'https://s.cafef.vn/Ajax/{self.category}/BHoSoCongTy.aspx?symbol={self.cpn_code}&Type=2&PageIndex=0&PageSize=4&donvi=1'
+            _path = f'https://s.cafef.vn/Ajax/{self.category}/BHoSoCongTy.aspx?\
+                symbol={self.cpn_code}&Type=2&PageIndex=0&PageSize=4&donvi=1'
             data = requests.get(_path)
         else:
-            _path = f'https://s.cafef.vn/Ajax/BHoSoCongTy.aspx?symbol={self.cpn_code}&Type=2&PageIndex=0&PageSize=4'
+            _path = f'https://s.cafef.vn/Ajax/BHoSoCongTy.aspx?\
+                symbol={self.cpn_code}&Type=2&PageIndex=0&PageSize=4'
             data = requests.get(_path)
         self.all_data = BeautifulSoup(data.text, "html.parser")
 
