@@ -46,7 +46,6 @@ class GetIndex:
         _data = requests.get(self.get_full_path())
         self.all_data = BeautifulSoup(_data.text, "html.parser")
 
-    @property
     def get_index_value_group_style(self):
         """
             get value when eps in group each
