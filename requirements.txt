@@ -37,7 +37,6 @@ py==1.8.1
 pycairo==1.16.2
 pycodestyle==2.6.0
 pycrypto==2.6.1
-pycups==1.9.73
 pyflakes==2.2.0
 pymacaroons==0.13.0
 pymt5==1.2.0
