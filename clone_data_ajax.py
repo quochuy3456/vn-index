@@ -24,9 +24,9 @@ data = {
         JlcXVpcmVQb3N0QmFja0tleV9fFgEFKGN0bDAwJENvbnRlbnRQbGFjZ\
         UhvbGRlcjEkY3RsMDMkYnRTZWFyY2jJnyPYjjwDsOatyCQBZar0ZSQygQ==',
     'ctl00$ContentPlaceHolder1$ctl03$txtKeyword': 'BID',
-    'ctl00$ContentPlaceHolder1$ctl03$dpkTradeDate1$txtDatePicker':'',
-    'ctl00$ContentPlaceHolder1$ctl03$dpkTradeDate2$txtDatePicker':'',
-    'ctl00$UcFooter2$hdIP':'',
+    'ctl00$ContentPlaceHolder1$ctl03$dpkTradeDate1$txtDatePicker': '',
+    'ctl00$ContentPlaceHolder1$ctl03$dpkTradeDate2$txtDatePicker': '',
+    'ctl00$UcFooter2$hdIP': '',
     '__VIEWSTATEGENERATOR': '2E2252AF',
     '__ASYNCPOST': 'true'
     }
