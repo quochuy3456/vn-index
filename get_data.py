@@ -6,8 +6,8 @@ import os
 # import configparser
 
 pth = "https://s.cafef.vn"
-state = "upcom"
-company_name = "MNB-tong-cong-ty-may-nha-be-cong-ty-co-phan.chn"
+state = "hastc"
+company_name = "PVC-tong-cong-ty-hoa-chat-va-dich-vu-dau-khi-ctcp.chn"
 
 
 # config = configparser.ConfigParser()
@@ -52,7 +52,6 @@ class GetIndex:
         @return:
         """
         info = self.all_data.find("div", {"class": "dl-thongtin clearfix"})
-        print(info)
         data = info.find_all("ul")[-1]
         li = data.find_all('li')
         dta = []
@@ -104,10 +103,10 @@ class GetIndex:
         data_info = list(filter(lambda x: True if len(x) >= 4 else False, d))
         return data_info
 
-# data = GetIndex(pth, state, company_name)
-#
-# e = data.get_index_value()
-# d = data.get_cpn_status()
-#
-# print(e)
-# print(d)
+data = GetIndex(pth, state, company_name)
+
+e = data.get_index_value()
+d = data.get_cpn_status()
+
+print(e)
+print(d)
