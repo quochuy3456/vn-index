@@ -46,7 +46,6 @@ pyparsing==2.4.7
 pyRFC3339==1.0
 pytest==5.4.3
 pytest-cov==2.9.0
-python-apt==1.6.5+ubuntu0.2
 python-dateutil==2.6.1
 python-debian==0.1.32
 pytz==2018.3
