@@ -82,7 +82,7 @@ class GetIndex:
         @return:
         """
         try:
-            index_value = self.get_index_value_group_style
+            index_value = self.get_index_value_group_style()
         except "N":
             index_value = self.get_index_value_list_st()
 
