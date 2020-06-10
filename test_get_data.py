@@ -10,6 +10,7 @@ company_name = "MNB-tong-cong-ty-may-nha-be-cong-ty-co-phan.chn"
 
 data = get_data.GetIndex(pth, state, company_name)
 
+
 class TestCalculator:
 
     def test_get_index_value(self):
