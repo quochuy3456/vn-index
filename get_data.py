@@ -11,7 +11,8 @@ company_name = "MNB-tong-cong-ty-may-nha-be-cong-ty-co-phan.chn"
 # config = configparser.ConfigParser()
 # config.read('config.cfg')
 
-# data = requests.get("https://s.cafef.vn/Ajax/Bank/BHoSoCongTy.aspx?symbol=VCB&Type=1&PageIndex=0&PageSize=4&donvi=1")
+# data = requests.get("https://s.cafef.vn/Ajax/Bank/
+# BHoSoCongTy.aspx?symbol=VCB&Type=1&PageIndex=0&PageSize=4&donvi=1")
 #
 # print(data.text)
 
@@ -38,7 +39,8 @@ class GetIndex:
         li = data.find_all('li')
         dta = []
         for o in li:
-            dta.append(list(map(lambda x: x.get_text(strip=True), o.find_all("div"))))
+            dta.append(list(map(lambda x: x.get_text(strip=True),\
+                                o.find_all("div"))))
         return dta
 
     def get_index_value_list_st(self):
@@ -47,13 +49,14 @@ class GetIndex:
         print(lst_val)
         index_value = []
         for o in lst_val:
-            index_value.append(list(map(lambda x: x.get_text(strip=True), o.find_all("span"))))
+            index_value.append(list(map(lambda x: x.get_text(strip=True), \
+                                        o.find_all("span"))))
         return index_value
 
     def get_index_value(self):
         try:
             index_value = self.get_index_value_group_style()
-        except:
+        except "N":
             index_value = self.get_index_value_list_st()
 
         return index_value
@@ -67,7 +70,8 @@ class GetIndex:
             cols = row.find_all('td')
             cols = [ele.text.strip() for ele in cols]
             data_info.append([ele for ele in cols if ele])
-        data_info = list(filter(lambda x: True if len(x) >= 4 else False, data_info))
+        data_info = list(filter(lambda x: True if len(x) >= 4 else False,\
+                                data_info))
         return data_info
 
 

@@ -4,10 +4,13 @@ from bs4 import BeautifulSoup
 path = "https://s.cafef.vn/Ajax/bank/BHoSoCongTy.\
         aspx?symbol=VCB&Type=2&PageIndex=0&PageSize=4&donvi=1"
 
-# path = "https://s.cafef.vn/Ajax/Bank/BHoSoCongTy.aspx?symbol=BID&Type=1&PageIndex=0&PageSize=4&donvi=1"
-# path = "https://s.cafef.vn/Ajax/HoSoCongTy.aspx?symbol=vnm&Type=2&PageIndex=0&PageSize=4"
+# path = "https://s.cafef.vn/Ajax/Bank/BHoSoCongTy.aspx?
+# symbol=BID&Type=1&PageIndex=0&PageSize=4&donvi=1"
+# path = "https://s.cafef.vn/Ajax/HoSoCongTy.aspx?
+# symbol=vnm&Type=2&PageIndex=0&PageSize=4"
 #
-# path = "https://s.cafef.vn/Ajax/HoSoCongTy.aspx?symbol=hhc&Type=2&PageIndex=0&PageSize=4"
+# path = "https://s.cafef.vn/Ajax/HoSoCongTy.aspx?
+# symbol=hhc&Type=2&PageIndex=0&PageSize=4"
 
 # data = requests.get(path)
 #
@@ -54,6 +57,7 @@ a = requests.post(path,
                   )
 
 print(a.text)
+
 
 class GetIndex:
     def __init__(self, path, cpn_code, category=None):
