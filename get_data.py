@@ -39,19 +39,17 @@ class GetIndex:
         li = data.find_all('li')
         dta = []
         for o in li:
-            dta.append(list(map(lambda x: x.get_text(strip=True),\
-                                o.find_all("div"))))
+            dta.append(list(map(lambda x: x.get_text(strip=True), o.find_all("div"))))
         return dta
 
     def get_index_value_list_st(self):
         info = self.all_data.find("div", {"class": "tidown"})
         lst_val = info.find('ul').find_all("li")
         print(lst_val)
-        index_value = []
+        iv= []
         for o in lst_val:
-            index_value.append(list(map(lambda x: x.get_text(strip=True), \
-                                        o.find_all("span"))))
-        return index_value
+            iv.append(list(map(lambda x: x.get_text(strip=True), o.find_all("span"))))
+        return iv
 
     def get_index_value(self):
         try:
@@ -70,8 +68,7 @@ class GetIndex:
             cols = row.find_all('td')
             cols = [ele.text.strip() for ele in cols]
             data_info.append([ele for ele in cols if ele])
-        data_info = list(filter(lambda x: True if len(x) >= 4 else False,\
-                                data_info))
+        data_info = list(filter(lambda x: True if len(x) >= 4 else False, data_info))
         return data_info
 
 

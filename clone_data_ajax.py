@@ -39,11 +39,13 @@ a = requests.post(path,
                   headers={
                       "Accept": "*/*",
                       "Accept-Encoding": "gzip, deflate, br",
-                      "Accept-Language": "vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5",
+                      "Accept-Language": "vi-VN,vi;q=0.9,fr-FR;q=0.8,\
+                        fr;q=0.7,en-US;q=0.6,en;q=0.5",
                       "Cache-Control": "no-cache",
                       "Connection": "keep-alive",
                       "Content-Length": "655",
-                      "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+                      "Content-Type": "application/x-www-form-urlencoded;\
+                        charset=UTF-8",
                       "Host": "s.cafef.vn",
                       "Origin": "https://s.cafef.vn",
                       "Referer": "https://s.cafef.vn/Lich-su-giao-dich-BID-2.chn",
@@ -51,7 +53,8 @@ a = requests.post(path,
                       "Sec-Fetch-Mode": "cors",
                       "Sec-Fetch-Site": "same-origin",
                       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)\
-                        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36",
+                        AppleWebKit/537.36 (KHTML, like Gecko) \
+                        Chrome/83.0.4103.97 Safari/537.36",
                       "X-MicrosoftAjax": "Delta=true",
                   }
                   )
