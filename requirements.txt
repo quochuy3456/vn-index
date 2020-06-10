@@ -6,8 +6,6 @@ certifi==2018.1.18
 chardet==3.0.4
 coverage==5.1
 cryptography==2.1.4
-distlib==0.3.0
-distro-info===0.18ubuntu0.18.04.1
 filelock==3.0.12
 flake8==3.8.3
 html5lib==0.999999999
