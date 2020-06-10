@@ -72,9 +72,34 @@ for p in list_path:
     except:
         h = "error"
 
+    try:
+        k = kt.get_pe(text="KLGD khớp lệnh trung bình 10 phiên")
+    except:
+        k = "error"
+
+    try:
+        l = kt.get_pe(text="KLCP đang niêm yết")
+    except:
+        l = "error"
+
+    try:
+        m = kt.get_pe(text="KLCP đang lưu hành")
+    except:
+        m = "error"
+
+    try:
+        n = kt.get_pe(text="Vốn hóa thị trường")
+    except:
+        n = "error"
+
+
     print(d)
     print(e)
     print(f)
     print(g)
     print(h)
+    print(k)
+    print(l)
+    print(m)
+    print(n)
     print("---------------")
