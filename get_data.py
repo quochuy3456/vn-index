@@ -1,8 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 import os
-import logging
-import configparser
+# import logging
+# import configparser
 
 pth = "https://s.cafef.vn"
 state = "upcom"
@@ -11,9 +11,9 @@ company_name = "MNB-tong-cong-ty-may-nha-be-cong-ty-co-phan.chn"
 # config = configparser.ConfigParser()
 # config.read('config.cfg')
 
-data = requests.get("https://s.cafef.vn/Ajax/Bank/BHoSoCongTy.aspx?symbol=VCB&Type=1&PageIndex=0&PageSize=4&donvi=1")
-"https://s.cafef.vn/Ajax/Bank/BHoSoCongTy.aspx?symbol=VCB&Type=2&PageIndex=0&PageSize=4&donvi=1000"
-print(data.text)
+# data = requests.get("https://s.cafef.vn/Ajax/Bank/BHoSoCongTy.aspx?symbol=VCB&Type=1&PageIndex=0&PageSize=4&donvi=1")
+#
+# print(data.text)
 
 
 class GetIndex:
