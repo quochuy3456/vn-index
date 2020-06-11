@@ -1,0 +1,12 @@
+DEBUG:	connectionpool.py:_new_conn():826	Starting new HTTPS connection (1): s.cafef.vn
+DEBUG:	connectionpool.py:_make_request():396	https://s.cafef.vn:443 "GET /hastc/PVC-tong-cong-ty-hoa-chat-va-dich-vu-dau-khi-ctcp.chn HTTP/1.1" 200 37195
+DEBUG:	connectionpool.py:_new_conn():826	Starting new HTTPS connection (1): s.cafef.vn
+DEBUG:	connectionpool.py:_make_request():396	https://s.cafef.vn:443 "GET /hastc/CSC-cong-ty-co-phan-tap-doan-cotana.chn HTTP/1.1" 200 32199
+DEBUG:	connectionpool.py:_new_conn():826	Starting new HTTPS connection (1): s.cafef.vn
+DEBUG:	connectionpool.py:_make_request():396	https://s.cafef.vn:443 "GET /hose/VCB-ngan-hang-thuong-mai-co-phan-ngoai-thuong-viet-nam.chn HTTP/1.1" 200 61290
+DEBUG:	connectionpool.py:_new_conn():826	Starting new HTTPS connection (1): s.cafef.vn
+DEBUG:	connectionpool.py:_make_request():396	https://s.cafef.vn:443 "GET /hose/VNM-cong-ty-co-phan-sua-viet-nam.chn HTTP/1.1" 200 31756
+DEBUG:	connectionpool.py:_new_conn():826	Starting new HTTPS connection (1): s.cafef.vn
+DEBUG:	connectionpool.py:_make_request():396	https://s.cafef.vn:443 "GET /upcom/HHA-cong-ty-co-phan-van-phong-pham-hong-ha.chn HTTP/1.1" 200 29620
+DEBUG:	connectionpool.py:_new_conn():826	Starting new HTTPS connection (1): s.cafef.vn
+DEBUG:	connectionpool.py:_make_request():396	https://s.cafef.vn:443 "GET /upcom/KSA-cong-ty-co-phan-cong-nghiep-khoang-san-binh-thuan.chn HTTP/1.1" 200 31910

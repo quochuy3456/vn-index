@@ -31,9 +31,9 @@ class GetIndex:
     def __init__(self, path):
         self.path = path
         self.all_data = None
-        self.clawer_all_data()
+        self.crawl_all_data()
 
-    def clawer_all_data(self):
+    def crawl_all_data(self):
         self.all_data = BeautifulSoup(requests.get(self.path).text, "html.parser")
 
     def get_eps(self, text):
