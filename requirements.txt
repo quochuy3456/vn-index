@@ -29,7 +29,7 @@ oauth==1.0.1
 olefile==0.45.1
 packaging==20.4
 pexpect==4.2.1
-Pillow==5.1.0
+Pillow==7.1.0
 pluggy==0.13.1
 ply==3.11
 protobuf==3.0.0
